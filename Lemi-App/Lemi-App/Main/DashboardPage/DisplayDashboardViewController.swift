@@ -16,12 +16,13 @@ protocol DisplayDashboardDisplayLogic: class {
     func displaySomething(viewModel: DisplayDashboardModel.ViewModel)
 }
 
-class DisplayDashboardViewController: UIViewController, DisplayDashboardDisplayLogic {
+class DisplayDashboardViewController: UIViewController, DisplayDashboardDisplayLogic, DisplayDashboardViewProtocol {
     var interactor: DisplayDashboardBusinessLogic?
     var router: (NSObjectProtocol & DisplayDashboardRoutingLogic)?
     
     lazy var myView: DisplayDashboardView = {
         let view = DisplayDashboardView()
+        view.delegate = self
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
@@ -30,6 +31,7 @@ class DisplayDashboardViewController: UIViewController, DisplayDashboardDisplayL
     
     private func setupView() {
         view.backgroundColor = .white
+        
         view.addSubview(myView)
         view.addConstraint(NSLayoutConstraint(
             item: myView,
@@ -76,7 +78,7 @@ class DisplayDashboardViewController: UIViewController, DisplayDashboardDisplayL
             constant: 0))
     }
     
-    private func setup() {
+    private func configureView() {
         let viewController = self
         let interactor = DisplayDashboardInteractor()
         let presenter = DisplayDashboardPresenter()
@@ -92,20 +94,37 @@ class DisplayDashboardViewController: UIViewController, DisplayDashboardDisplayL
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
+        configureView()
         setupView()
+        setupDefault()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
+    }
+    
+    private func setupDefault() {
+        
     }
     
     // MARK: Event Handling
     
-    func doSomething() {
-        let request = DisplayDashboardModel.Request()
-        interactor?.doSomething(request: request)
+    func showSearchPage() {
+        let controller = SearchCitiesViewController()
+        controller.delegate = self
+        self.router?.navigateToSomewhere(source: self, destination: controller, isPresented: false)
     }
     
     // MARK: Display Logic
     
     func displaySomething(viewModel: DisplayDashboardModel.ViewModel) {
         
+    }
+}
+
+extension DisplayDashboardViewController: SearchCitiesViewControllerProtocol {
+    func selectCity(city: City) {
+        let name = city.name ?? ""
+        myView.selectedCityLabel.text = "You selected: \(name)"
     }
 }

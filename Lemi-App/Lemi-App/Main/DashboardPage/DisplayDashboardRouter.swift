@@ -13,14 +13,19 @@
 import UIKit
 
 @objc protocol DisplayDashboardRoutingLogic {
-    func navigateToSomewhere(source: DisplayDashboardViewController, destination: UIViewController)
+    func navigateToSomewhere(source: DisplayDashboardViewController, destination: UIViewController, isPresented: Bool)
 }
 
 class DisplayDashboardRouter: NSObject, DisplayDashboardRoutingLogic {
     weak var viewController: DisplayDashboardViewController?
     
     // MARK: Navigation
-    func navigateToSomewhere(source: DisplayDashboardViewController, destination: UIViewController) {
-        
+    func navigateToSomewhere(source: DisplayDashboardViewController, destination: UIViewController, isPresented: Bool) {
+        if isPresented {
+            let navigationController = UINavigationController(rootViewController: destination)
+            source.present(navigationController, animated: true, completion: nil)
+        } else {
+            source.show(destination, sender: nil)
+        }
     }
 }

@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		BD6C1FA16109C44A1F4BD420 /* Pods_Lemi_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DB63A0223A4E1CAE0B5E3A /* Pods_Lemi_App.framework */; };
+		D32EFA6A24237FDD005080A3 /* SearchCitiesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6324237FDD005080A3 /* SearchCitiesPresenter.swift */; };
+		D32EFA6B24237FDD005080A3 /* SearchCitiesWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6424237FDD005080A3 /* SearchCitiesWorker.swift */; };
+		D32EFA6C24237FDD005080A3 /* SearchCitiesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6524237FDD005080A3 /* SearchCitiesRouter.swift */; };
+		D32EFA6D24237FDD005080A3 /* SearchCitiesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6624237FDD005080A3 /* SearchCitiesModels.swift */; };
+		D32EFA6E24237FDD005080A3 /* SearchCitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6724237FDD005080A3 /* SearchCitiesViewController.swift */; };
+		D32EFA6F24237FDD005080A3 /* SearchCitiesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6824237FDD005080A3 /* SearchCitiesInteractor.swift */; };
+		D32EFA7024237FDD005080A3 /* SearchCitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA6924237FDD005080A3 /* SearchCitiesView.swift */; };
+		D32EFA732423808D005080A3 /* SearchCitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA722423808D005080A3 /* SearchCitiesTableViewCell.swift */; };
+		D32EFA75242380B5005080A3 /* SearchCitiesAPIStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA74242380B5005080A3 /* SearchCitiesAPIStore.swift */; };
+		D32EFA77242380D4005080A3 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA76242380D4005080A3 /* APIRouter.swift */; };
+		D32EFA7A242380F4005080A3 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA79242380F4005080A3 /* UIColorExtensions.swift */; };
+		D32EFA7E242381A1005080A3 /* TransformDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32EFA7D242381A1005080A3 /* TransformDataTypes.swift */; };
 		D33A0FB124231403000D62F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FB024231403000D62F1 /* AppDelegate.swift */; };
 		D33A0FB524231403000D62F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FB424231403000D62F1 /* ViewController.swift */; };
 		D33A0FB824231403000D62F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33A0FB624231403000D62F1 /* Main.storyboard */; };
@@ -26,6 +38,18 @@
 		11A8FD04791220C70F3582E3 /* Pods-Lemi-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemi-App.debug.xcconfig"; path = "Target Support Files/Pods-Lemi-App/Pods-Lemi-App.debug.xcconfig"; sourceTree = "<group>"; };
 		91CB414D3DD6570999A3587A /* Pods-Lemi-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemi-App.release.xcconfig"; path = "Target Support Files/Pods-Lemi-App/Pods-Lemi-App.release.xcconfig"; sourceTree = "<group>"; };
 		98DB63A0223A4E1CAE0B5E3A /* Pods_Lemi_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemi_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32EFA6324237FDD005080A3 /* SearchCitiesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesPresenter.swift; sourceTree = "<group>"; };
+		D32EFA6424237FDD005080A3 /* SearchCitiesWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesWorker.swift; sourceTree = "<group>"; };
+		D32EFA6524237FDD005080A3 /* SearchCitiesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesRouter.swift; sourceTree = "<group>"; };
+		D32EFA6624237FDD005080A3 /* SearchCitiesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesModels.swift; sourceTree = "<group>"; };
+		D32EFA6724237FDD005080A3 /* SearchCitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesViewController.swift; sourceTree = "<group>"; };
+		D32EFA6824237FDD005080A3 /* SearchCitiesInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesInteractor.swift; sourceTree = "<group>"; };
+		D32EFA6924237FDD005080A3 /* SearchCitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesView.swift; sourceTree = "<group>"; };
+		D32EFA722423808D005080A3 /* SearchCitiesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesTableViewCell.swift; sourceTree = "<group>"; };
+		D32EFA74242380B5005080A3 /* SearchCitiesAPIStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCitiesAPIStore.swift; sourceTree = "<group>"; };
+		D32EFA76242380D4005080A3 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		D32EFA79242380F4005080A3 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		D32EFA7D242381A1005080A3 /* TransformDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformDataTypes.swift; sourceTree = "<group>"; };
 		D33A0FAD24231403000D62F1 /* Lemi-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemi-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33A0FB024231403000D62F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33A0FB424231403000D62F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +95,74 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D32EFA6124237F92005080A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D33A0FD324231AA5000D62F1 /* DashboardPage */,
+				D32EFA6224237FBA005080A3 /* SearchPage */,
+				D33A0FB024231403000D62F1 /* AppDelegate.swift */,
+				D33A0FB624231403000D62F1 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D32EFA6224237FBA005080A3 /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				D32EFA7F2423838F005080A3 /* Services */,
+				D32EFA6324237FDD005080A3 /* SearchCitiesPresenter.swift */,
+				D32EFA6424237FDD005080A3 /* SearchCitiesWorker.swift */,
+				D32EFA6524237FDD005080A3 /* SearchCitiesRouter.swift */,
+				D32EFA6724237FDD005080A3 /* SearchCitiesViewController.swift */,
+				D32EFA6824237FDD005080A3 /* SearchCitiesInteractor.swift */,
+				D32EFA6924237FDD005080A3 /* SearchCitiesView.swift */,
+				D32EFA722423808D005080A3 /* SearchCitiesTableViewCell.swift */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		D32EFA7124238068005080A3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D32EFA76242380D4005080A3 /* APIRouter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D32EFA78242380E8005080A3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D32EFA79242380F4005080A3 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D32EFA7B24238175005080A3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D32EFA78242380E8005080A3 /* Extensions */,
+				D32EFA7C2423818F005080A3 /* Tools */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D32EFA7C2423818F005080A3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D32EFA7D242381A1005080A3 /* TransformDataTypes.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D32EFA7F2423838F005080A3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D32EFA6624237FDD005080A3 /* SearchCitiesModels.swift */,
+				D32EFA74242380B5005080A3 /* SearchCitiesAPIStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		D33A0FA424231403000D62F1 = {
 			isa = PBXGroup;
 			children = (
@@ -92,10 +184,10 @@
 		D33A0FAF24231403000D62F1 /* Lemi-App */ = {
 			isa = PBXGroup;
 			children = (
-				D33A0FD324231AA5000D62F1 /* DashboardPage */,
-				D33A0FB024231403000D62F1 /* AppDelegate.swift */,
+				D32EFA7B24238175005080A3 /* Common */,
+				D32EFA7124238068005080A3 /* Networking */,
+				D32EFA6124237F92005080A3 /* Main */,
 				D33A0FB424231403000D62F1 /* ViewController.swift */,
-				D33A0FB624231403000D62F1 /* Main.storyboard */,
 				D33A0FB924231404000D62F1 /* Assets.xcassets */,
 				D33A0FBB24231404000D62F1 /* LaunchScreen.storyboard */,
 				D33A0FBE24231405000D62F1 /* Info.plist */,
@@ -232,15 +324,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32EFA6E24237FDD005080A3 /* SearchCitiesViewController.swift in Sources */,
 				D33A0FE024231B4B000D62F1 /* DisplayDashboardInteractor.swift in Sources */,
 				D33A0FDF24231B4B000D62F1 /* DisplayDashboardViewController.swift in Sources */,
+				D32EFA7024237FDD005080A3 /* SearchCitiesView.swift in Sources */,
+				D32EFA7E242381A1005080A3 /* TransformDataTypes.swift in Sources */,
+				D32EFA77242380D4005080A3 /* APIRouter.swift in Sources */,
 				D33A0FDD24231B4B000D62F1 /* DisplayDashboardRouter.swift in Sources */,
 				D33A0FB524231403000D62F1 /* ViewController.swift in Sources */,
 				D33A0FDB24231B4B000D62F1 /* DisplayDashboardPresenter.swift in Sources */,
+				D32EFA6A24237FDD005080A3 /* SearchCitiesPresenter.swift in Sources */,
 				D33A0FDE24231B4B000D62F1 /* DisplayDashboardModels.swift in Sources */,
+				D32EFA75242380B5005080A3 /* SearchCitiesAPIStore.swift in Sources */,
 				D33A0FB124231403000D62F1 /* AppDelegate.swift in Sources */,
 				D33A0FDC24231B4B000D62F1 /* DisplayDashboardWorker.swift in Sources */,
+				D32EFA732423808D005080A3 /* SearchCitiesTableViewCell.swift in Sources */,
 				D33A0FE124231B4B000D62F1 /* DisplayDashboardView.swift in Sources */,
+				D32EFA6F24237FDD005080A3 /* SearchCitiesInteractor.swift in Sources */,
+				D32EFA6D24237FDD005080A3 /* SearchCitiesModels.swift in Sources */,
+				D32EFA6B24237FDD005080A3 /* SearchCitiesWorker.swift in Sources */,
+				D32EFA6C24237FDD005080A3 /* SearchCitiesRouter.swift in Sources */,
+				D32EFA7A242380F4005080A3 /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -370,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -388,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH45525A99;
 				INFOPLIST_FILE = "Lemi-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +512,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QH45525A99;
 				INFOPLIST_FILE = "Lemi-App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
