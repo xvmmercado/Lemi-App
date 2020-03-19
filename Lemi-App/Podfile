@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Lemi-App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Lemi-App
+	pod 'Alamofire', "~> 4.7.1"
+	pod 'AlamofireObjectMapper'
+	pod 'SwiftyJSON'
+	pod 'Kingfisher', "~> 4.7.0"
+
+end

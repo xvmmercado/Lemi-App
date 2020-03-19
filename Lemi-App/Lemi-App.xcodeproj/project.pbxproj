@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD6C1FA16109C44A1F4BD420 /* Pods_Lemi_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DB63A0223A4E1CAE0B5E3A /* Pods_Lemi_App.framework */; };
 		D33A0FB124231403000D62F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FB024231403000D62F1 /* AppDelegate.swift */; };
 		D33A0FB524231403000D62F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FB424231403000D62F1 /* ViewController.swift */; };
 		D33A0FB824231403000D62F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33A0FB624231403000D62F1 /* Main.storyboard */; };
 		D33A0FBA24231404000D62F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33A0FB924231404000D62F1 /* Assets.xcassets */; };
 		D33A0FBD24231404000D62F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33A0FBB24231404000D62F1 /* LaunchScreen.storyboard */; };
+		D33A0FDB24231B4B000D62F1 /* DisplayDashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FD424231B4B000D62F1 /* DisplayDashboardPresenter.swift */; };
+		D33A0FDC24231B4B000D62F1 /* DisplayDashboardWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FD524231B4B000D62F1 /* DisplayDashboardWorker.swift */; };
+		D33A0FDD24231B4B000D62F1 /* DisplayDashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FD624231B4B000D62F1 /* DisplayDashboardRouter.swift */; };
+		D33A0FDE24231B4B000D62F1 /* DisplayDashboardModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FD724231B4B000D62F1 /* DisplayDashboardModels.swift */; };
+		D33A0FDF24231B4B000D62F1 /* DisplayDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FD824231B4B000D62F1 /* DisplayDashboardViewController.swift */; };
+		D33A0FE024231B4B000D62F1 /* DisplayDashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FD924231B4B000D62F1 /* DisplayDashboardInteractor.swift */; };
+		D33A0FE124231B4B000D62F1 /* DisplayDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33A0FDA24231B4B000D62F1 /* DisplayDashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A8FD04791220C70F3582E3 /* Pods-Lemi-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemi-App.debug.xcconfig"; path = "Target Support Files/Pods-Lemi-App/Pods-Lemi-App.debug.xcconfig"; sourceTree = "<group>"; };
+		91CB414D3DD6570999A3587A /* Pods-Lemi-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lemi-App.release.xcconfig"; path = "Target Support Files/Pods-Lemi-App/Pods-Lemi-App.release.xcconfig"; sourceTree = "<group>"; };
+		98DB63A0223A4E1CAE0B5E3A /* Pods_Lemi_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lemi_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33A0FAD24231403000D62F1 /* Lemi-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lemi-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33A0FB024231403000D62F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33A0FB424231403000D62F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		D33A0FB924231404000D62F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33A0FBC24231404000D62F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33A0FBE24231405000D62F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33A0FD424231B4B000D62F1 /* DisplayDashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardPresenter.swift; sourceTree = "<group>"; };
+		D33A0FD524231B4B000D62F1 /* DisplayDashboardWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardWorker.swift; sourceTree = "<group>"; };
+		D33A0FD624231B4B000D62F1 /* DisplayDashboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardRouter.swift; sourceTree = "<group>"; };
+		D33A0FD724231B4B000D62F1 /* DisplayDashboardModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardModels.swift; sourceTree = "<group>"; };
+		D33A0FD824231B4B000D62F1 /* DisplayDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardViewController.swift; sourceTree = "<group>"; };
+		D33A0FD924231B4B000D62F1 /* DisplayDashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardInteractor.swift; sourceTree = "<group>"; };
+		D33A0FDA24231B4B000D62F1 /* DisplayDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6C1FA16109C44A1F4BD420 /* Pods_Lemi_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BB5079F518A07AFB165600 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98DB63A0223A4E1CAE0B5E3A /* Pods_Lemi_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28EBB43362E87FA860BA7C92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11A8FD04791220C70F3582E3 /* Pods-Lemi-App.debug.xcconfig */,
+				91CB414D3DD6570999A3587A /* Pods-Lemi-App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D33A0FA424231403000D62F1 = {
 			isa = PBXGroup;
 			children = (
 				D33A0FAF24231403000D62F1 /* Lemi-App */,
 				D33A0FAE24231403000D62F1 /* Products */,
+				28EBB43362E87FA860BA7C92 /* Pods */,
+				24BB5079F518A07AFB165600 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +92,7 @@
 		D33A0FAF24231403000D62F1 /* Lemi-App */ = {
 			isa = PBXGroup;
 			children = (
+				D33A0FD324231AA5000D62F1 /* DashboardPage */,
 				D33A0FB024231403000D62F1 /* AppDelegate.swift */,
 				D33A0FB424231403000D62F1 /* ViewController.swift */,
 				D33A0FB624231403000D62F1 /* Main.storyboard */,
@@ -64,6 +103,20 @@
 			path = "Lemi-App";
 			sourceTree = "<group>";
 		};
+		D33A0FD324231AA5000D62F1 /* DashboardPage */ = {
+			isa = PBXGroup;
+			children = (
+				D33A0FD424231B4B000D62F1 /* DisplayDashboardPresenter.swift */,
+				D33A0FD524231B4B000D62F1 /* DisplayDashboardWorker.swift */,
+				D33A0FD624231B4B000D62F1 /* DisplayDashboardRouter.swift */,
+				D33A0FD724231B4B000D62F1 /* DisplayDashboardModels.swift */,
+				D33A0FD824231B4B000D62F1 /* DisplayDashboardViewController.swift */,
+				D33A0FD924231B4B000D62F1 /* DisplayDashboardInteractor.swift */,
+				D33A0FDA24231B4B000D62F1 /* DisplayDashboardView.swift */,
+			);
+			path = DashboardPage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D33A0FC124231405000D62F1 /* Build configuration list for PBXNativeTarget "Lemi-App" */;
 			buildPhases = (
+				00D685CD7055159B543F3DF8 /* [CP] Check Pods Manifest.lock */,
 				D33A0FA924231403000D62F1 /* Sources */,
 				D33A0FAA24231403000D62F1 /* Frameworks */,
 				D33A0FAB24231403000D62F1 /* Resources */,
+				343F61DC53115B4F101C5F55 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +185,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00D685CD7055159B543F3DF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lemi-App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		343F61DC53115B4F101C5F55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lemi-App/Pods-Lemi-App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lemi-App/Pods-Lemi-App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lemi-App/Pods-Lemi-App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D33A0FA924231403000D62F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33A0FE024231B4B000D62F1 /* DisplayDashboardInteractor.swift in Sources */,
+				D33A0FDF24231B4B000D62F1 /* DisplayDashboardViewController.swift in Sources */,
+				D33A0FDD24231B4B000D62F1 /* DisplayDashboardRouter.swift in Sources */,
 				D33A0FB524231403000D62F1 /* ViewController.swift in Sources */,
+				D33A0FDB24231B4B000D62F1 /* DisplayDashboardPresenter.swift in Sources */,
+				D33A0FDE24231B4B000D62F1 /* DisplayDashboardModels.swift in Sources */,
 				D33A0FB124231403000D62F1 /* AppDelegate.swift in Sources */,
+				D33A0FDC24231B4B000D62F1 /* DisplayDashboardWorker.swift in Sources */,
+				D33A0FE124231B4B000D62F1 /* DisplayDashboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +382,7 @@
 		};
 		D33A0FC224231405000D62F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A8FD04791220C70F3582E3 /* Pods-Lemi-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +401,7 @@
 		};
 		D33A0FC324231405000D62F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91CB414D3DD6570999A3587A /* Pods-Lemi-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
